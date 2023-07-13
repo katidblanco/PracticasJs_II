@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lapices</title>
+</head>
+
+<body>
+    <script>
+        let lapices, costo;
+        lapices = prompt('Ingrese la cantidad de lápices:');
+
+
+        if (lapices >= 1000) {
+            costo = lapices * 0.85;
+
+            document.write('El costo es ' + costo);
+
+        } else {
+            costo = lapices * 0.90;
+            document.write('El costo es ' + costo);
+        }
+
+
+    </script>
+</body>
+
+</html>
